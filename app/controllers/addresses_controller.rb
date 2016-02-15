@@ -17,7 +17,11 @@ class AddressesController < ApplicationController
 
   def magic
     @link  = Address.find(params[:id]).longurl
-    redirect_to "http://#{@link}"
+    if @link[0..3] == "http" 
+        redirect_to "#{@link}"
+      else
+        redirect_to "http://#{@link}"
+      end
   end
 
   private
