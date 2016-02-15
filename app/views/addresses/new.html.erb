@@ -1,18 +1,15 @@
-<h1>Short Links</h1>
+
+
+    <h1>Short Links</h1>
 
 
 
-<div id="form">
-<%= render 'form' %>
-</div>
+    <div id="form">
+    <%= render 'form' %>
+    </div>
 
 
-<% if false %>
-    <% Address.create(longurl: "www.google.com") %>
-<% else %>
-    <% Address.create(longurl: "www.google.com") %>
     <div id="output_link">
       <p>Want one? plug it up there and find it Down here.</p>
-      <%= link_to "http://localhost:3000/#{@addresses.last.id}", "http://localhost:3000/#{@addresses.last.id}", :target => "_blank" %>
+      <%= link_to "https://ladybugurl.herokuapp.com/#{@addresses.last.id}", "https://ladybugurl.herokuapp.com/#{@addresses.last.id}", :target => "_blank" %>
     </div>
-<% end %>
