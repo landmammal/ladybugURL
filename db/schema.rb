@@ -22,10 +22,4 @@ ActiveRecord::Schema.define(version: 20160213214716) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "urls", force: :cascade do |t|
-    t.string   "longUrl"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
 end
