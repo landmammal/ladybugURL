@@ -1,0 +1,77 @@
+// Place all the styles related to the addresses controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+  h1 {
+    text-align: center;
+    color: #BF3636;
+  }
+
+
+  body {
+      margin: auto;
+      background-image: url('https://images.unsplash.com/photo-1414322058660-a4c56ab6c1e2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=6ec0e52ab103cac95a74735dea97a0ba');
+      background-size:     cover;                      /* <------ */
+      background-repeat:   no-repeat;
+      background-position: center center;
+      height: 96vh;
+
+  }
+
+
+  #output_link {
+
+    color: teal;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #form {
+     color: teal;
+     width: 100px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 5em;
+     padding-bottom: 3em;
+   }
+
+
+  .actions {
+    background-color: red;
+    margin-top: 2em;
+  }
+
+
+  input {
+      text-align: center;
+      -webkit-appearance: textfield;
+      background-color: white;
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      -webkit-rtl-ordering: logical;
+      -webkit-user-select: text;
+      cursor: auto;
+      padding: 1px;
+      border: 2px inset;
+      height: 26px;
+      width: 189px;
+      color: #BF3636;
+  }
+
+
+  a:-webkit-any-link {
+      color: -webkit-link;
+      text-decoration: none;
+      cursor: auto;
+      color: teal;
+      width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 1em;
+      padding-bottom: 1em;
+  }
